@@ -7,18 +7,18 @@
 
 int main(void)
 {
-	int n = 97;
-	int m = 65;
+	char Lower = 'a';
+	char Upper = 'A';
 
-	while (n <= 122)
+	while (Lower <= 'z')
 	{
-		putchar(n);
-		n++;
+		putchar(Lower);
+		Lower++;
 	}
-	while (n <= 90)
+	while (Upper <= 'Z')
 	{
-		putchar(m);
-		m++;
+		putchar(Upper);
+		Upper++;
 	}
 	putchar('\n');
 	return (0);
