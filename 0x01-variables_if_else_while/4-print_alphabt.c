@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description - printing alphabet in uppercase and lowercase
+ * Description - printing alphabet except q and e
  * Return: Always 0
  */
 
