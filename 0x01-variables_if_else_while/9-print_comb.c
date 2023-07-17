@@ -4,7 +4,7 @@
  * Description - prints all possible combinations of single-digit numbers
  * Return: always 0
  */
-int main (void)
+int main(void)
 {
 	int n;
 
@@ -16,7 +16,7 @@ int main (void)
 			continue;
 		}
 		putchar(',');
-		putchar(' ');	
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
