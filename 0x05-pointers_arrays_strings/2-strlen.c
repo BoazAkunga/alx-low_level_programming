@@ -4,7 +4,7 @@
  * @s: pointer to a string
  * Return: 0
  */
-int _strlen(char *s);
+int _strlen(char *s)
 {
 	int total_length;
 
