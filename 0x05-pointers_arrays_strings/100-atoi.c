@@ -2,12 +2,12 @@
 #include <stdio.h>
 /**
  * _atoi - convert a string to an integer
- * @s:string to be converted
- * Return: integer to be converted from the string
+ * @s:string t
+ * Return: int to be converted from the string
  */
 int _atoi(char *s)
 {
-	
+
 	int i, d, n, len, f, digit;
 
 	i = 0;
