@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 /**
  * main - print 1 to 100, multiple of 3 Fizz, multiple of 5 Buzz
