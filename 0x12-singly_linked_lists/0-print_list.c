@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * print_list - prints all elements of a the list
+ * print_list - prints all elements of the linked list
  * @h: pointer to the list_t list
  * Return: number of nodes printed
  */
