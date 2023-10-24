@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * free_listint_safe - frees listint_t
- * @h: Ptr to 1st node in listint_t
- * Return: No of elements in listint_t
+ * free_listint_safe - frees listint_t with a loop
+ * @h: Ptr to 1st node in listint_t list
+ * Return: the size of the list that was free’d
  */
 
 size_t free_listint_safe(listint_t **h)
