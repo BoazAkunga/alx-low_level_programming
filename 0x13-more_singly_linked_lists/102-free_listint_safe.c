@@ -18,7 +18,7 @@ size_t free_listint_safe(listint_t **h)
 	while (*h)
 	{
 	yap = *h - (*h)->next;
-	if (yap > 0)
+	if ((*h)->n == (*h)->next->n)
 	{
 	tem = (*h)->next;
 	free(*h);
