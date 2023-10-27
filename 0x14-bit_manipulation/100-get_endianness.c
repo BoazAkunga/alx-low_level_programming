@@ -2,15 +2,15 @@
 
 /**
  * get_endianness - prog checks the endianness
- *
- * Return: 0 if big endian, 1 if little endian
+ * Return: 0 (Big endian) else 1 (little endian)
  */
+
 int get_endianness(void)
 {
-	int a;
-	char *b;
+	int x;
+	char *y;
 
-	a = 1;
-	b = (char *)&a;
-	return (*b);
+	x = 1;
+	y = (char *)&x;
+	return (*y);
 }
