@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * clear_bit - Prog sets the value of bit to 0 at given index
+ * clear_bit - Prog sets value of bit 2 0 at given index
  * @n: Parameter
  * @index: Index
  * Return: 1 (success) else -1 (error)
