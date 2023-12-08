@@ -3,7 +3,7 @@
 /*
  * print_dlistint - prints every element of a
  * dlistint_t list
- * @h - head of list
+ * @h: head of list
  * Return: No of nodes
  */
 
